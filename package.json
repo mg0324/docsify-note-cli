@@ -1,0 +1,25 @@
+{
+  "name": "docsify-note-cli",
+  "version": "0.0.1",
+  "description": "docsify-note cli tool",
+  "homepage": "https://github.com/mg0324/docsify-note-cli",
+  "repository": "git@github.com:mg0324/docsify-note-cli.git",
+  "main": "index.js",
+  "bin": {
+    "docsify-note": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docsify-note",
+    "docsify-note-cli"
+  ],
+  "author": "mangomei",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "ora": "^5.3.0"
+  }
+}
